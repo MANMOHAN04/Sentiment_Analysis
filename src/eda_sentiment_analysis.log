@@ -1,0 +1,55 @@
+2025-04-28 21:20:10,651 - __main__ - INFO - Starting EDA pipeline
+2025-04-28 21:20:10,655 - __main__ - INFO - Directory Validated: ../plots/
+2025-04-28 21:20:10,657 - __main__ - INFO - Directory Already Exists: ../reports/
+2025-04-28 21:20:10,658 - __main__ - INFO - Directory Already Exists: ../data/processed
+2025-04-28 21:20:10,658 - __main__ - INFO - Loading Data from ../data/raw/sentiment_comments.csv
+2025-04-28 21:20:10,718 - __main__ - INFO - Performing data validation checks
+2025-04-28 21:20:10,736 - __main__ - WARNING - Some comment dates are outside the expected
+2025-04-28 21:20:10,743 - __main__ - WARNING - Unexpected sentiment categories found: {'Pleased'}
+2025-04-28 21:20:10,743 - __main__ - INFO - Data validation is completed successfully
+2025-04-28 21:20:10,744 - __main__ - INFO - Engineering additional features
+2025-04-28 21:20:10,785 - __main__ - INFO - Feature Engineer Completed
+2025-04-28 21:20:10,786 - __main__ - INFO - Creating the distribution plots
+2025-04-28 21:20:11,397 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Likes.png
+2025-04-28 21:20:11,745 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Comment_Length.png
+2025-04-28 21:20:12,062 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Has_Typo.png
+2025-04-28 21:20:12,376 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Slang_Presence.png
+2025-04-28 21:20:12,711 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Words_per_Comment.png
+2025-04-28 21:20:13,045 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Avg_Word_Length.png
+2025-04-28 21:20:13,383 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Engagement_Rate.png
+2025-04-28 21:20:13,693 - __main__ - INFO - Plot saved successfully: ../assets/plots\distribution_Sentiment_Score.png
+2025-04-28 21:20:13,695 - __main__ - INFO - Creating comprehensive plots for the categorical features 
+2025-04-28 21:20:13,908 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Sentiment.png
+2025-04-28 21:20:13,932 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:13,945 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,027 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,034 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,316 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Has_Typo.png
+2025-04-28 21:20:14,342 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,347 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,377 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,382 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,662 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Slang_Presence.png
+2025-04-28 21:20:14,681 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,689 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,734 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:14,740 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:15,075 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Comment_DayOfWeek.png
+2025-04-28 21:20:15,095 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:15,101 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:15,156 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:15,161 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-28 21:20:15,566 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Comment_Month.png
+2025-04-28 21:20:15,944 - __main__ - INFO - Plot saved successfully: ../assets/plots\categorical_Comment_Season.png
+2025-04-28 21:20:15,945 - __main__ - INFO - Creating temporal analysis plots
+2025-04-28 21:20:16,977 - __main__ - INFO - Plot saved successfully: ../assets/plots\temporal_analysis.png
+2025-04-28 21:20:16,978 - __main__ - INFO - Creating correlational analysis
+2025-04-28 21:20:17,327 - __main__ - INFO - Plot saved successfully: ../assets/plots\correlation_heatmap.png
+2025-04-28 21:20:17,470 - __main__ - INFO - Plot saved successfully: ../assets/plots\top_correlations.png
+2025-04-28 21:20:17,471 - __main__ - INFO - Creating the sentiment analysis plots
+2025-04-28 21:20:17,996 - __main__ - INFO - Plot saved successfully: ../assets/plots\sentiment_distribution.png
+2025-04-28 21:20:18,239 - __main__ - INFO - Plot saved successfully: ../assets/plots\sentiment_over_time.png
+2025-04-28 21:20:18,240 - __main__ - INFO - Generating EDA report
+2025-04-28 21:20:18,275 - __main__ - INFO - EDA report saved to ../reports/eda_report.txt
+2025-04-28 21:20:18,299 - __main__ - INFO - Processed data saved to ../data/processed/processed_sentiment_comments.csv
+2025-04-28 21:20:18,301 - __main__ - INFO - EDA pipeline completed successfully
